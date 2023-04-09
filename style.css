@@ -1,0 +1,360 @@
+body, h1, h2, h3, p, ul{
+padding: 0px;
+margin: 0px;
+}
+
+.menu{
+    width: 100%;
+    height: 20px;
+    background: white;
+    padding: 20px 0px 50px 50px;
+    position: fixed;
+}
+
+.logo{
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+
+.menu-nubank{
+    max-width: 100%;
+    float: left;
+}
+.menu-nubank li{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.menu-nubank a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 33px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.login li{
+    display: inline-block;
+    margin-top: 28px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 70px;
+    margin-top: 10px;
+}
+
+.login{
+    float: right;
+
+}
+
+.login a{
+    text-decoration: none;
+    color:#820ad1
+}
+
+/*Inicio da imagem após o topo */
+.imagem{
+    background: url('../img/img1.png') no-repeat center center;
+    background-size: cover;
+    height: 865px;
+
+}
+
+.imagem h1{
+    padding: 370px 0 0 0;
+    margin-left: 220px;
+    margin-bottom: 10px;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.imagem h2{
+    margin-left: 220px;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    font-size: 32px;
+    font-weight: lighter
+}
+
+.form {
+    box-sizing: border-box;
+    background-color: white;
+    max-width: 330px;
+    height: 300px;
+    float: right;
+    border-radius: 8px;
+    text-align: left;
+    padding: 20px;
+    margin-top: -205px;
+    margin-right: 40px;
+
+}
+
+.form h3{
+    color:black;
+    font-size: 22px;
+    margin-bottom: 80px;
+}
+
+.name {
+    color: #878787;
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.bto{
+    background: #820ad1;
+    display: flex;
+    justify-content: space-between;
+    border: 0px;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 20px;
+
+}
+
+.campo{
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+/*Final da imagem após o topo*/
+
+/*-- Inicio secão 2 */
+
+.secao2{
+    height: 800px;
+    background: white;
+
+}
+
+.secao2 h2{
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 48px;
+    color:#820ad1;
+    margin-left: 400px;
+    margin-top: 270px;
+
+}
+
+.secao2 h2 a{
+text-decoration: none;
+}
+
+.secao2 h3{
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 38px;
+    font-weight: lighter;
+    color: black;
+    margin-left: 400px;
+    margin-bottom: 23px;
+}
+
+.img-cartao{
+    float: left;
+    width: 45%;
+    margin-top: 200px;
+   }
+
+.cartao{
+    float: left;
+    width: 55%;
+
+}
+
+.link2{
+    margin-left: 400px;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+/*-- final seção 2 */
+
+
+/* Inicio seção 3 */
+.secao3{
+    height: 800px;
+    background: #f5f5f5;
+}
+
+.secao3 h2{
+    text-align: lef;
+    font-family: 'Cabin', sans-serif;
+    font-size: 48px;
+    color:#820ad1;
+    margin-left: 220px;
+
+}
+
+.secao3 h2 a{
+text-decoration: none;
+}
+.secao3 h3{
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 38px;
+    font-weight: lighter;
+    color: black;
+    margin-left: 220px;
+    margin-bottom: 23px;
+}
+
+.link3{
+    margin-left: 220px;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.cartao-ultra{
+    width: 45%;
+    float: left;
+    margin-top:350px;
+}
+
+.violeta{
+    float: left;
+    margin-top: 200px;
+    margin-left: 195px;
+}
+/* fim seção 3 */
+
+/* Inicio seção 4 */
+.secao4{
+    height: 800px;
+    background: #f5f5f5;
+}
+
+.secao4 h2{
+    text-align: lef;
+    font-family: 'Cabin', sans-serif;
+    font-size: 48px;
+    color:#820ad1;
+    margin-left: 400px;
+
+}
+
+.secao4 h2 a{
+text-decoration: none;
+}
+.secao4 h3{
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 38px;
+    font-weight: lighter;
+    color: black;
+    margin-left: 400px;
+    margin-bottom: 23px;
+}
+
+.link4{
+    margin-left: 400px;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.nu-cartao{
+    width: 55%;
+    float: left;
+    margin-top: 350px;
+}
+
+.cartao-4{
+    width: 45%;
+    float: left;
+    margin-top: 220px;
+
+}
+/* fim seção 4 */
+
+/*<!-- Inicio seção 5,6 e 7 */
+
+.secao5{
+    background: url('../img/img5.png') no-repeat center center;
+    background-size: cover;
+    height: 860px;
+}
+
+.secao5 h2{
+    padding: 337px 0 0 0;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    color:white;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.link5{
+    margin-left: 500px;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.secao6{
+    background: url('../img/img6.png') no-repeat center center;
+    background-size: cover;
+    height: 860px;
+}
+
+.secao6 h2{
+    padding: 337px 0 0 0;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    color:white;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.link6{
+    margin-left: 500px;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.secao7{
+    background: url('../img/img7.png') no-repeat center center;
+    background-size: cover;
+    height: 860px;
+}
+
+.secao7 h2{
+    padding: 337px 0 0 0;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    color:white;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.link7{
+    margin-left: 500px;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+
+/*<!-- fim seção 5,,6 e 7  -->/* 
